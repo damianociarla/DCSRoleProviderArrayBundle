@@ -15,7 +15,7 @@ class DCSRoleProviderArrayExtension extends Extension
 
         $container->setParameter('dcs_role_provider_array.roles', $config['roles']);
 
-        $loader = new Loader\XmlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
+        $loader = new Loader\XmlFileLoader($container, new FileLocator(__DIR__ . '/../Resources/config'));
         $loader->load('provider.xml');
     }
 }
