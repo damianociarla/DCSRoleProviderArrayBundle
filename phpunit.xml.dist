@@ -3,7 +3,7 @@
 <phpunit bootstrap="./tests/bootstrap.php" colors="true">
 
     <testsuites>
-        <testsuite name="DCSRoleCore Test Suite">
+        <testsuite name="DCSRoleProviderArray Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>
