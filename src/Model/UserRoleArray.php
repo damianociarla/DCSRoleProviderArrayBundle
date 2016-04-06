@@ -7,7 +7,7 @@ namespace DCS\Role\Provider\ArrayBundle\Model;
  *
  * @property array $roles
  */
-trait ArrayUserRole
+trait UserRoleArray
 {
     /**
      * Add role if not exists
