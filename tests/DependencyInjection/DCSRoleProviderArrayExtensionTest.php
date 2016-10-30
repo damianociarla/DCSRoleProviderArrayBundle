@@ -5,7 +5,7 @@ namespace DCS\Role\Provider\ArrayBundle\Tests\DependencyInjection;
 use DCS\Role\Provider\ArrayBundle\DependencyInjection\DCSRoleProviderArrayExtension;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
-class DCSSecurityCoreExtensionTest extends \PHPUnit_Framework_TestCase
+class DCSRoleProviderArrayExtensionTest extends \PHPUnit_Framework_TestCase
 {
     public function testLoad()
     {
